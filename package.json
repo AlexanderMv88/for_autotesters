@@ -1,17 +1,18 @@
 {
-  "name": "test1",
-  "version": "1.0.0",
-  "description": "",
-  "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "dependencies": {
-    "chromedriver": "^95.0.0",
-    "geckodriver": "^3.0.1",
-    "selenium-webdriver": "^4.1.1"
-  }
+    "name": "test1",
+    "version": "1.0.0",
+    "description": "",
+    "main": "index.js",
+    "scripts": {
+        "test": "jest"
+    },
+    "keywords": [],
+    "author": "",
+    "license": "ISC",
+    "devDependencies": {
+        "chromedriver": "^100.0.0",
+        "geckodriver": "^3.0.1",
+        "jest": "^28.0.0",
+        "selenium-webdriver": "^3.6.0"
+    }
 }

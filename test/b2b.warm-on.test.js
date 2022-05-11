@@ -38,6 +38,14 @@ describe('Тесты функционала https://b2b.warm-on.ru/', () => {
         expect(title).toEqual("Регистрация");
     });
 
+    test('Должен придти к заголовку "Регистрация"', async() => {
+        //Перехожу на страницу:
+        await driver.get("https://b2b.warm-on.ru/");
+        //Скролю до кнопки и нажимаю - "Стать партнером"
+        await scrollAndClickOnWebComponent(driver, 1300, "Стать партнером");
+      
+    });
+
     //Тут можно писать еще тесты
 });
 
